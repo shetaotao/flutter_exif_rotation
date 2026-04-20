@@ -6,7 +6,7 @@ homepage: https://github.com/NGhebreial/flutter_exif_rotation
 repository: https://github.com/NGhebreial/flutter_exif_rotation
 
 environment:
-  sdk: '>=2.14.0 <3.0.0'
+  sdk: '>=2.14.0 <4.0.0'
   flutter: '>=1.13.0'
 
 dependencies:
@@ -20,6 +20,8 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
+      ohos:
+        pluginClass: FlutterExifRotationPlugin
       android:
         package: io.flutter.plugins.flutterexifrotation
         pluginClass: FlutterExifRotationPlugin

@@ -41,7 +41,7 @@ class FlutterExifRotation {
       'rotateImage',
       <String, dynamic>{
         'path': path,
-        'save': false,
+        'save': save,
       },
     ));
 

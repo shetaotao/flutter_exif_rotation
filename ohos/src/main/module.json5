@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "flutter_exif_rotation",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}
