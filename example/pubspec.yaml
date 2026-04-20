@@ -18,7 +18,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  image_picker: ^0.8.4+4
+  # image_picker: ^0.8.4+4
+  image_picker:
+    git:
+      url: "https://gitcode.com/openharmony-tpc/flutter_packages.git"
+      path: "packages/image_picker/image_picker"
   flutter_exif_rotation:
     path: ../
 
